@@ -44,7 +44,7 @@ public class login_fail_listener {
 	public static void screenshort() throws IOException {
 		
 		File f = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		Files.copy(f, new File("C:\\Users\\athar\\OneDrive\\Documents\\screenshot_listeners\\screenshot1.jpeg"));
+		Files.copy(f, new File("C:\\Users\\athar\\OneDrive\\Documents\\screenshot_listeners\\screenshot.jpeg"));
 		
 	}
 
